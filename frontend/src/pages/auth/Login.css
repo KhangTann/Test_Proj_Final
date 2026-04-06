@@ -1,0 +1,130 @@
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f4f7f6;
+    /* Màu nền nhạt như trong ảnh */
+}
+
+
+/* Phần hình ảnh */
+
+.login-image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.illustration {
+    max-width: 80%;
+    height: auto;
+}
+
+
+/* Phần Form */
+
+.login-form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1fbd9;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.form-title {
+    text-align: center;
+    color: #2e7d32;
+    /* Màu xanh lá đặc trưng */
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+
+/* Custom Input Underline */
+
+.input-group {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    width: 120px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group label span {
+    color: red;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid #333;
+    /* Đường kẻ dưới */
+    background: transparent;
+    padding: 5px 0;
+    outline: none;
+    font-size: 14px;
+}
+
+
+/* Options & Button */
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #333;
+}
+
+.forgot-link {
+    color: #2e7d32;
+    text-decoration: underline;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    /* Bo tròn nút */
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-login:hover {
+    background-color: #1b5e20;
+}
+
+.register-footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.register-link {
+    color: #2e7d32;
+    font-weight: bold;
+    text-decoration: underline;
+}
