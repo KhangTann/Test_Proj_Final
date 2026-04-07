@@ -1,10 +1,11 @@
 from fastapi import FastAPI
-from app.routers import test
+from app.routers import user
 
 app = FastAPI()
 
-app.include_router(test.router)
+# include router
+app.include_router(user.router)
 
 @app.get("/")
 def root():
-    return {"message": "Server is running"}
+    return {"message": "API is running"}
