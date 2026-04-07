@@ -1,6 +1,11 @@
-# Placeholder for User model (will use later with database)
+from sqlalchemy import Column, Integer, String
+from app.database import Base
 
-class User:
-    def __init__(self, username: str, email: str):
-        self.username = username
-        self.email = email
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, index=True, nullable=False)
+    email = Column(String, unique=True, index=True, nullable=False)
+    password = Column(String, nullable=False)
+    role = Column(String, default="user")
