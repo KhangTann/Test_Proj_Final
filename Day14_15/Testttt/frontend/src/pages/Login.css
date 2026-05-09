@@ -1,0 +1,107 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.login-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(130deg, #0f172a, #1e293b);
+}
+
+.travel-illustration-card {
+  width: min(520px, 100%);
+  min-height: 300px;
+  border-radius: 20px;
+  padding: 28px;
+  color: #ecfeff;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  box-shadow: 0 24px 38px rgba(15, 23, 42, 0.4);
+}
+
+.travel-illustration-card h2 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.travel-illustration-card p {
+  margin: 0;
+}
+
+.login-form-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e1fbd9;
+}
+
+.form-wrapper {
+  width: min(430px, 92%);
+}
+
+.form-title {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 14px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #253b2a;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #324d37;
+  background: transparent;
+  padding: 10px 2px;
+  outline: none;
+}
+
+.btn-login {
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  padding: 11px 18px;
+  background: #2e7d32;
+  color: white;
+  font-weight: 700;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #b91c1c;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register-footer {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.register-link {
+  color: #2e7d32;
+  font-weight: 700;
+}
+
